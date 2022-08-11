@@ -1,0 +1,165 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: wheat;
+    padding: 16px;
+    align-items: center;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.m2title {
+    font-weight: bold;
+    font-size: 32px;
+    padding-block: 8px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.right-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.M1 {
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.M2 {
+    background-color: white;    
+    padding: 32px;
+}
+
+.M3 {
+    background-color: lightgrey;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.M4 {
+    margin:40px 25vw 40px 25vw;
+    background-color: wheat;
+    width: 50vw;
+    border-radius: 10px;
+    gap: 16px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    background-color: lemonchiffon;
+    padding: 12px 40px;
+    border-radius: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: palegoldenrod;
+    border: 2px solid black;
+}
+
+img {
+    display: flex;
+    width: 500px;
+    text-align: right;
+    padding: 32px;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.boldm {
+    font-weight: bold;
+    font-size: 32px;
+    padding-block: 8px;
+}
+
+.bold2 {
+    font-weight: 600;
+    font-size: 20px;
+    padding-block: 8px;
+}
+
+a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.gotm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.gotm img {
+    width:250px;
+    height:250px;
+    padding: 0px;
+    transition: transform .3s;
+    object-fit: cover;
+    border: 5px solid black;
+    border-radius: 25px;
+    margin: 20px 20px 0px 0px;
+}
+
+.gotm img:hover {
+    transform: scale(1.1);
+}
+
+.gotm p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.m3title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.m3quote {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: right;
+    gap: 16px;
+}
+
+.m4title {
+    font-size:20px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: lightyellow;
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
